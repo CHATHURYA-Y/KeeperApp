@@ -1,0 +1,80 @@
+.App {
+    text-align: center;
+  }
+  
+  .Nav {
+    margin-bottom: 20px;
+  }
+  
+  .Below-Nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .InputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-top: 20px;
+    max-width: 300px;
+    width: 100%;
+  }
+  
+  .AddButton {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    
+  }
+  
+  .Inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .Inputs input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .NotesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .Note {
+    width: calc(25% - 20px); 
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .DeleteButton {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  textarea{
+    width:300px;
+    height: 100px;;
+    resize:none;
+  }
